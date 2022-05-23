@@ -1,4 +1,4 @@
-Challenge Concluded ✔ [NFT-RocketSeat] <br>
+Challenge Concluded - 100% Responsive ✔ [NFT-RocketSeat] <br>
 
 https://kain-prog.github.io/kain-nft
 
