@@ -649,9 +649,8 @@ footer .container .title{
     #nav{
         position: fixed;
         left: -100%;
-        top: 100px;
+        top: 0;
         gap: 0;
-        flex-direction: column;
         background-color: #252525e4;
         width: 100%;
         text-align: center;
@@ -659,11 +658,13 @@ footer .container .title{
         list-style: none;
         height: 100vh;
         width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
 
     #nav.active{
         left: 0px;
-        display: block;
     }
 
     #nav li{
@@ -798,10 +799,6 @@ footer .container .title{
 
     .logo h1 {
         font-size: 1.3em;
-    }
-
-    #nav{
-        top: 90px;
     }
 
     .intro .col-2 {
